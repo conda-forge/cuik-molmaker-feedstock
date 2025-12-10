@@ -45,6 +45,7 @@ requirements:
     - setuptools >=80.0.0
     - librdkit {{ rdkit }}.*
     - rdkit {{ rdkit }}.*
+    - scipy
 
 test:
   imports:

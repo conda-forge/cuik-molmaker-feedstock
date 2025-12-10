@@ -11,7 +11,7 @@ source:
 build:
   script_env:
     - RDKIT_VERSION={{ rdkit }}
-  number: 0
+  number: 1
   entry_points:
     - cuik-molmaker-fit-distribution = cuik_molmaker.utils.fit_distribution:main
     - cuik-molmaker-mol-features = cuik_molmaker.mol_features:main

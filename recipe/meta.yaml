@@ -2,7 +2,7 @@
 
 package:
   name: cuik_molmaker
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://github.com/NVIDIA-Digital-Bio/cuik-molmaker/archive/refs/tags/v{{ version }}.tar.gz
@@ -11,7 +11,7 @@ source:
 build:
   script_env:
     - RDKIT_VERSION={{ rdkit }}
-  number: 1
+  number: 2
   entry_points:
     - cuik-molmaker-fit-distribution = cuik_molmaker.utils.fit_distribution:main
     - cuik-molmaker-mol-features = cuik_molmaker.mol_features:main

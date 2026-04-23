@@ -44,6 +44,15 @@ jobs:
       osx_64_python3.13.____cp313rdkit2025.09.1:
         CONFIG: osx_64_python3.13.____cp313rdkit2025.09.1
         UPLOAD_PACKAGES: 'True'
+      osx_64_python3.14.____cp314rdkit2025.03.5:
+        CONFIG: osx_64_python3.14.____cp314rdkit2025.03.5
+        UPLOAD_PACKAGES: 'True'
+      osx_64_python3.14.____cp314rdkit2025.03.6:
+        CONFIG: osx_64_python3.14.____cp314rdkit2025.03.6
+        UPLOAD_PACKAGES: 'True'
+      osx_64_python3.14.____cp314rdkit2025.09.1:
+        CONFIG: osx_64_python3.14.____cp314rdkit2025.09.1
+        UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables: {}
 

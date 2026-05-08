@@ -2,7 +2,7 @@
 
 package:
   name: cuik_molmaker
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://github.com/NVIDIA-Digital-Bio/cuik-molmaker/archive/refs/tags/v{{ version }}.tar.gz

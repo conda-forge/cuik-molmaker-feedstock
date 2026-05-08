@@ -38,8 +38,8 @@ requirements:
     - rdkit {{ rdkit }}.*
     - pybind11 >=2.13
     - pybind11-abi
-    - libboost-headers
-    - libboost-python-devel
+    - libboost-headers >=1.86
+    - libboost-python-devel >=1.86
   run:
     - python
     - setuptools >=80.0.0

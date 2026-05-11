@@ -1,4 +1,4 @@
-{% set version = "0.2" %}
+{% set version = "0.2.1" %}
 
 package:
   name: cuik_molmaker
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://github.com/NVIDIA-Digital-Bio/cuik-molmaker/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: c137442f06af5f195efe7a916aefae065c8c52b40ae8e028a5bcd672b75c5fe8
+  sha256: c2112778749b930929b0c24a2b06cac85cc4d6db2c49cc92bc6863aea3b39708
 
 build:
   script_env:
     - RDKIT_VERSION={{ rdkit }}
-  number: 2
+  number: 0
   entry_points:
     - cuik-molmaker-fit-distribution = cuik_molmaker.utils.fit_distribution:main
     - cuik-molmaker-mol-features = cuik_molmaker.mol_features:main
@@ -38,8 +38,8 @@ requirements:
     - rdkit {{ rdkit }}.*
     - pybind11 >=2.13
     - pybind11-abi
-    - libboost-headers
-    - libboost-python-devel
+    - libboost-devel >=1.86
+    - libboost-python-devel >=1.86
   run:
     - python
     - setuptools >=80.0.0

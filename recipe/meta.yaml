@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/NVIDIA-Digital-Bio/cuik-molmaker/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: c2112778749b930929b0c24a2b06cac85cc4d6db2c49cc92bc6863aea3b39708
+  sha256: c5b01716b44b285752f205094f5e5a1e92e754c9d37f8c0113b374627b9562fe
 
 build:
   script_env:

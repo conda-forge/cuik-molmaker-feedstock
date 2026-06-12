@@ -5,45 +5,89 @@
 jobs:
 - job: osx
   pool:
-    vmImage: macOS-15
+    vmImage: $(VMIMAGE)
   strategy:
     matrix:
-      osx_64_python3.10.____cpythonrdkit2025.03.5:
-        CONFIG: osx_64_python3.10.____cpythonrdkit2025.03.5
+      osx_64_python3.10.____cpythonrdkit2025.09.2:
+        CONFIG: osx_64_python3.10.____cpythonrdkit2025.09.2
         UPLOAD_PACKAGES: 'True'
-      osx_64_python3.10.____cpythonrdkit2025.03.6:
-        CONFIG: osx_64_python3.10.____cpythonrdkit2025.03.6
+        VMIMAGE: macOS-15
+      osx_64_python3.10.____cpythonrdkit2025.09.3:
+        CONFIG: osx_64_python3.10.____cpythonrdkit2025.09.3
         UPLOAD_PACKAGES: 'True'
-      osx_64_python3.10.____cpythonrdkit2025.09.1:
-        CONFIG: osx_64_python3.10.____cpythonrdkit2025.09.1
+        VMIMAGE: macOS-15
+      osx_64_python3.10.____cpythonrdkit2025.09.4:
+        CONFIG: osx_64_python3.10.____cpythonrdkit2025.09.4
         UPLOAD_PACKAGES: 'True'
-      osx_64_python3.11.____cpythonrdkit2025.03.5:
-        CONFIG: osx_64_python3.11.____cpythonrdkit2025.03.5
+        VMIMAGE: macOS-15
+      osx_64_python3.10.____cpythonrdkit2025.09.6:
+        CONFIG: osx_64_python3.10.____cpythonrdkit2025.09.6
         UPLOAD_PACKAGES: 'True'
-      osx_64_python3.11.____cpythonrdkit2025.03.6:
-        CONFIG: osx_64_python3.11.____cpythonrdkit2025.03.6
+        VMIMAGE: macOS-15
+      osx_64_python3.10.____cpythonrdkit2026.03.1:
+        CONFIG: osx_64_python3.10.____cpythonrdkit2026.03.1
         UPLOAD_PACKAGES: 'True'
-      osx_64_python3.11.____cpythonrdkit2025.09.1:
-        CONFIG: osx_64_python3.11.____cpythonrdkit2025.09.1
+        VMIMAGE: macOS-15
+      osx_64_python3.11.____cpythonrdkit2025.09.2:
+        CONFIG: osx_64_python3.11.____cpythonrdkit2025.09.2
         UPLOAD_PACKAGES: 'True'
-      osx_64_python3.12.____cpythonrdkit2025.03.5:
-        CONFIG: osx_64_python3.12.____cpythonrdkit2025.03.5
+        VMIMAGE: macOS-15
+      osx_64_python3.11.____cpythonrdkit2025.09.3:
+        CONFIG: osx_64_python3.11.____cpythonrdkit2025.09.3
         UPLOAD_PACKAGES: 'True'
-      osx_64_python3.12.____cpythonrdkit2025.03.6:
-        CONFIG: osx_64_python3.12.____cpythonrdkit2025.03.6
+        VMIMAGE: macOS-15
+      osx_64_python3.11.____cpythonrdkit2025.09.4:
+        CONFIG: osx_64_python3.11.____cpythonrdkit2025.09.4
         UPLOAD_PACKAGES: 'True'
-      osx_64_python3.12.____cpythonrdkit2025.09.1:
-        CONFIG: osx_64_python3.12.____cpythonrdkit2025.09.1
+        VMIMAGE: macOS-15
+      osx_64_python3.11.____cpythonrdkit2025.09.6:
+        CONFIG: osx_64_python3.11.____cpythonrdkit2025.09.6
         UPLOAD_PACKAGES: 'True'
-      osx_64_python3.13.____cp313rdkit2025.03.5:
-        CONFIG: osx_64_python3.13.____cp313rdkit2025.03.5
+        VMIMAGE: macOS-15
+      osx_64_python3.11.____cpythonrdkit2026.03.1:
+        CONFIG: osx_64_python3.11.____cpythonrdkit2026.03.1
         UPLOAD_PACKAGES: 'True'
-      osx_64_python3.13.____cp313rdkit2025.03.6:
-        CONFIG: osx_64_python3.13.____cp313rdkit2025.03.6
+        VMIMAGE: macOS-15
+      osx_64_python3.12.____cpythonrdkit2025.09.2:
+        CONFIG: osx_64_python3.12.____cpythonrdkit2025.09.2
         UPLOAD_PACKAGES: 'True'
-      osx_64_python3.13.____cp313rdkit2025.09.1:
-        CONFIG: osx_64_python3.13.____cp313rdkit2025.09.1
+        VMIMAGE: macOS-15
+      osx_64_python3.12.____cpythonrdkit2025.09.3:
+        CONFIG: osx_64_python3.12.____cpythonrdkit2025.09.3
         UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15
+      osx_64_python3.12.____cpythonrdkit2025.09.4:
+        CONFIG: osx_64_python3.12.____cpythonrdkit2025.09.4
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15
+      osx_64_python3.12.____cpythonrdkit2025.09.6:
+        CONFIG: osx_64_python3.12.____cpythonrdkit2025.09.6
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15
+      osx_64_python3.12.____cpythonrdkit2026.03.1:
+        CONFIG: osx_64_python3.12.____cpythonrdkit2026.03.1
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15
+      osx_64_python3.13.____cp313rdkit2025.09.2:
+        CONFIG: osx_64_python3.13.____cp313rdkit2025.09.2
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15
+      osx_64_python3.13.____cp313rdkit2025.09.3:
+        CONFIG: osx_64_python3.13.____cp313rdkit2025.09.3
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15
+      osx_64_python3.13.____cp313rdkit2025.09.4:
+        CONFIG: osx_64_python3.13.____cp313rdkit2025.09.4
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15
+      osx_64_python3.13.____cp313rdkit2025.09.6:
+        CONFIG: osx_64_python3.13.____cp313rdkit2025.09.6
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15
+      osx_64_python3.13.____cp313rdkit2026.03.1:
+        CONFIG: osx_64_python3.13.____cp313rdkit2026.03.1
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15
   timeoutInMinutes: 360
   variables: {}
 

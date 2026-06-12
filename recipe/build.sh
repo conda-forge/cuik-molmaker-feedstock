@@ -19,11 +19,14 @@ echo "CONDA_PREFIX:"
 echo "${CONDA_PREFIX}"
 echo "BUILD_PREFIX:"
 echo "${BUILD_PREFIX}"
+echo "PREFIX (host):"
+echo "${PREFIX}"
 set -x
 
-# Hack for RDkit expecting things in python3.9 folder
-# ln -s $CONDA_PREFIX/lib/python$PYTHON_VERSION $CONDA_PREFIX/lib/python3.9
-# ln -s $CONDA_PREFIX/include/python$PYTHON_VERSION $CONDA_PREFIX/include/python3.9
+# Point CONDA_PREFIX to the host prefix so that setup.py passes the
+# correct CMAKE_PREFIX_PATH to CMake. Host deps (rdkit, libboost, etc.)
+# live in $PREFIX, not $BUILD_PREFIX.
+export CONDA_PREFIX=${PREFIX}
 
 # Build C++ extension
 RDKIT_VERSION=${RDKIT_VERSION}  PYTHON_VERSION=${PYTHON_VERSION} CUIKMOLMAKER_CXX11_ABI=${CXX11_ABI} $PYTHON setup.py build_ext --inplace

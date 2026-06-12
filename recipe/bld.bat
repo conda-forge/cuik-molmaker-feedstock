@@ -13,6 +13,10 @@ echo %CONDA_PREFIX%
 echo BUILD_PREFIX:
 echo %BUILD_PREFIX%
 
+REM Point CONDA_PREFIX to the host prefix so that setup.py passes the
+REM correct CMAKE_PREFIX_PATH to CMake (host deps live in PREFIX).
+set CONDA_PREFIX=%PREFIX%
+
 REM Build C++ extension
 %PYTHON% setup.py build_ext --inplace
 if errorlevel 1 exit 1

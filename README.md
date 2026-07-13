@@ -239,6 +239,55 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_64_python3.14.____cp314rdkit2025.09.2</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27033&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cuik-molmaker-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.14.____cp314rdkit2025.09.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.14.____cp314rdkit2025.09.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27033&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cuik-molmaker-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.14.____cp314rdkit2025.09.3" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.14.____cp314rdkit2025.09.4</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27033&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cuik-molmaker-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.14.____cp314rdkit2025.09.4" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.14.____cp314rdkit2025.09.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27033&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cuik-molmaker-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.14.____cp314rdkit2025.09.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.14.____cp314rdkit2026.03.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27033&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cuik-molmaker-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.14.____cp314rdkit2026.03.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.14.____cp314rdkit2026.03.2</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27033&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cuik-molmaker-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.14.____cp314rdkit2026.03.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.14.____cp314rdkit2026.03.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27033&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cuik-molmaker-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.14.____cp314rdkit2026.03.3" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>win_64_python3.10.____cpythonrdkit2025.09.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27033&branchName=main">
@@ -432,6 +481,55 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27033&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cuik-molmaker-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.13.____cp313rdkit2026.03.3" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.14.____cp314rdkit2025.09.2</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27033&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cuik-molmaker-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.14.____cp314rdkit2025.09.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.14.____cp314rdkit2025.09.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27033&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cuik-molmaker-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.14.____cp314rdkit2025.09.3" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.14.____cp314rdkit2025.09.4</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27033&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cuik-molmaker-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.14.____cp314rdkit2025.09.4" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.14.____cp314rdkit2025.09.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27033&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cuik-molmaker-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.14.____cp314rdkit2025.09.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.14.____cp314rdkit2026.03.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27033&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cuik-molmaker-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.14.____cp314rdkit2026.03.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.14.____cp314rdkit2026.03.2</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27033&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cuik-molmaker-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.14.____cp314rdkit2026.03.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.14.____cp314rdkit2026.03.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27033&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cuik-molmaker-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.14.____cp314rdkit2026.03.3" alt="variant">
                 </a>
               </td>
             </tr>

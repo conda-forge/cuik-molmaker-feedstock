@@ -1,17 +1,17 @@
-{% set version = "0.2.1" %}
+{% set version = "0.3.0rc1" %}
 
 package:
   name: cuik_molmaker
   version: {{ version }}
 
 source:
-  url: https://github.com/NVIDIA-Digital-Bio/cuik-molmaker/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: e166ee7a2fb1397ab1ee6df055c6ca971eacf35b3cb87aaffe1d11c1f0474402
+  url: https://github.com/NVIDIA-BioNeMo/cuik-molmaker/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: e261f4f3b67fba88aadd6a8e84152b613f3392bd757bceba8e9422b53ecb7e52
 
 build:
   script_env:
     - RDKIT_VERSION={{ rdkit }}
-  number: 1
+  number: 0
   entry_points:
     - cuik-molmaker-fit-distribution = cuik_molmaker.utils.fit_distribution:main
     - cuik-molmaker-mol-features = cuik_molmaker.mol_features:main

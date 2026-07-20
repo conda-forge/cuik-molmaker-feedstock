@@ -260,6 +260,69 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: D:\Miniforge
+      win_64_python3.14.____cp314rdkit2025.09.2:
+        CONFIG: win_64_python3.14.____cp314rdkit2025.09.2
+        UPLOAD_PACKAGES: 'True'
+        build_workspace_dir: D:\\bld\\
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: D:\Miniforge
+      win_64_python3.14.____cp314rdkit2025.09.3:
+        CONFIG: win_64_python3.14.____cp314rdkit2025.09.3
+        UPLOAD_PACKAGES: 'True'
+        build_workspace_dir: D:\\bld\\
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: D:\Miniforge
+      win_64_python3.14.____cp314rdkit2025.09.4:
+        CONFIG: win_64_python3.14.____cp314rdkit2025.09.4
+        UPLOAD_PACKAGES: 'True'
+        build_workspace_dir: D:\\bld\\
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: D:\Miniforge
+      win_64_python3.14.____cp314rdkit2025.09.6:
+        CONFIG: win_64_python3.14.____cp314rdkit2025.09.6
+        UPLOAD_PACKAGES: 'True'
+        build_workspace_dir: D:\\bld\\
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: D:\Miniforge
+      win_64_python3.14.____cp314rdkit2026.03.1:
+        CONFIG: win_64_python3.14.____cp314rdkit2026.03.1
+        UPLOAD_PACKAGES: 'True'
+        build_workspace_dir: D:\\bld\\
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: D:\Miniforge
+      win_64_python3.14.____cp314rdkit2026.03.2:
+        CONFIG: win_64_python3.14.____cp314rdkit2026.03.2
+        UPLOAD_PACKAGES: 'True'
+        build_workspace_dir: D:\\bld\\
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: D:\Miniforge
+      win_64_python3.14.____cp314rdkit2026.03.3:
+        CONFIG: win_64_python3.14.____cp314rdkit2026.03.3
+        UPLOAD_PACKAGES: 'True'
+        build_workspace_dir: D:\\bld\\
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: D:\Miniforge
     maxParallel: 25
   timeoutInMinutes: 360
   variables:

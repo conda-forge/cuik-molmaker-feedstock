@@ -9,6 +9,7 @@ source:
   sha256: e261f4f3b67fba88aadd6a8e84152b613f3392bd757bceba8e9422b53ecb7e52
 
 build:
+  skip: true  # [py<311]
   script_env:
     - RDKIT_VERSION={{ rdkit }}
   number: 0

@@ -13,7 +13,7 @@ c_stdlib_version:
 channel_sources:
 - conda-forge
 channel_targets:
-- conda-forge main
+- conda-forge cuik_molmaker_rc
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
@@ -29,9 +29,9 @@ pin_run_as_build:
 pybind11_abi:
 - '11'
 python:
-- 3.14.* *_cp314
+- 3.13.* *_cp313
 rdkit:
-- 2025.09.4
+- 2026.03.4
 target_platform:
 - osx-64
 zip_keys:

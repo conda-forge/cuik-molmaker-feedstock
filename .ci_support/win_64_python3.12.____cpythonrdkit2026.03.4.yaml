@@ -5,7 +5,7 @@ c_stdlib:
 channel_sources:
 - conda-forge
 channel_targets:
-- conda-forge main
+- conda-forge cuik_molmaker_rc
 cxx_compiler:
 - vs2022
 numpy:
@@ -19,6 +19,6 @@ pybind11_abi:
 python:
 - 3.12.* *_cpython
 rdkit:
-- 2025.09.3
+- 2026.03.4
 target_platform:
 - win-64

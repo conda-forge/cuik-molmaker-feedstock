@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: cuik_molmaker
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/NVIDIA-BioNeMo/cuik-molmaker/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: b2d6a998c0e81fc83c9131687a6d94e369cd2abcb40fa995757da514d190cf1a
+  sha256: fadf314908a24027c6af3530ea9726bab184e8b3b77d04b43bdb1e3dcfa722af
 
 build:
   skip: true  # [py<311]

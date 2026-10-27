@@ -12,7 +12,7 @@ build:
   skip: true  # [py<311]
   script_env:
     - RDKIT_VERSION={{ rdkit }}
-  number: 2
+  number: 3
   missing_dso_whitelist:
     - '*libpython*'  # [linux]
   entry_points:

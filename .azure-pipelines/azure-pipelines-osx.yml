@@ -368,6 +368,96 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
+      osx_64_python3.15.____cp315rdkit2025.09.1:
+        CONFIG: osx_64_python3.15.____cp315rdkit2025.09.1
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15
+        build_workspace_dir: ~/miniforge3/conda-bld
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_64_python3.15.____cp315rdkit2025.09.3:
+        CONFIG: osx_64_python3.15.____cp315rdkit2025.09.3
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15
+        build_workspace_dir: ~/miniforge3/conda-bld
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_64_python3.15.____cp315rdkit2025.09.6:
+        CONFIG: osx_64_python3.15.____cp315rdkit2025.09.6
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15
+        build_workspace_dir: ~/miniforge3/conda-bld
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_64_python3.15.____cp315rdkit2026.03.1:
+        CONFIG: osx_64_python3.15.____cp315rdkit2026.03.1
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15
+        build_workspace_dir: ~/miniforge3/conda-bld
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_64_python3.15.____cp315rdkit2026.03.2:
+        CONFIG: osx_64_python3.15.____cp315rdkit2026.03.2
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15
+        build_workspace_dir: ~/miniforge3/conda-bld
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_64_python3.15.____cp315rdkit2026.03.3:
+        CONFIG: osx_64_python3.15.____cp315rdkit2026.03.3
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15
+        build_workspace_dir: ~/miniforge3/conda-bld
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_64_python3.15.____cp315rdkit2026.03.4:
+        CONFIG: osx_64_python3.15.____cp315rdkit2026.03.4
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15
+        build_workspace_dir: ~/miniforge3/conda-bld
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_64_python3.15.____cp315rdkit2026.03.5:
+        CONFIG: osx_64_python3.15.____cp315rdkit2026.03.5
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15
+        build_workspace_dir: ~/miniforge3/conda-bld
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_64_python3.15.____cp315rdkit2026.03.6:
+        CONFIG: osx_64_python3.15.____cp315rdkit2026.03.6
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15
+        build_workspace_dir: ~/miniforge3/conda-bld
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
       osx_arm64_python3.11.____cpythonrdkit2025.09.1:
         CONFIG: osx_arm64_python3.11.____cpythonrdkit2025.09.1
         UPLOAD_PACKAGES: 'True'
@@ -720,6 +810,96 @@ jobs:
         tools_install_dir: ~/miniforge3
       osx_arm64_python3.14.____cp314rdkit2026.03.6:
         CONFIG: osx_arm64_python3.14.____cp314rdkit2026.03.6
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15-arm64
+        build_workspace_dir: ~/miniforge3/conda-bld
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_arm64_python3.15.____cp315rdkit2025.09.1:
+        CONFIG: osx_arm64_python3.15.____cp315rdkit2025.09.1
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15-arm64
+        build_workspace_dir: ~/miniforge3/conda-bld
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_arm64_python3.15.____cp315rdkit2025.09.3:
+        CONFIG: osx_arm64_python3.15.____cp315rdkit2025.09.3
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15-arm64
+        build_workspace_dir: ~/miniforge3/conda-bld
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_arm64_python3.15.____cp315rdkit2025.09.6:
+        CONFIG: osx_arm64_python3.15.____cp315rdkit2025.09.6
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15-arm64
+        build_workspace_dir: ~/miniforge3/conda-bld
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_arm64_python3.15.____cp315rdkit2026.03.1:
+        CONFIG: osx_arm64_python3.15.____cp315rdkit2026.03.1
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15-arm64
+        build_workspace_dir: ~/miniforge3/conda-bld
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_arm64_python3.15.____cp315rdkit2026.03.2:
+        CONFIG: osx_arm64_python3.15.____cp315rdkit2026.03.2
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15-arm64
+        build_workspace_dir: ~/miniforge3/conda-bld
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_arm64_python3.15.____cp315rdkit2026.03.3:
+        CONFIG: osx_arm64_python3.15.____cp315rdkit2026.03.3
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15-arm64
+        build_workspace_dir: ~/miniforge3/conda-bld
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_arm64_python3.15.____cp315rdkit2026.03.4:
+        CONFIG: osx_arm64_python3.15.____cp315rdkit2026.03.4
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15-arm64
+        build_workspace_dir: ~/miniforge3/conda-bld
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_arm64_python3.15.____cp315rdkit2026.03.5:
+        CONFIG: osx_arm64_python3.15.____cp315rdkit2026.03.5
+        UPLOAD_PACKAGES: 'True'
+        VMIMAGE: macOS-15-arm64
+        build_workspace_dir: ~/miniforge3/conda-bld
+        free_disk_space: skip
+        pagefile_size: 0
+        resize_partitions: false
+        store_build_artifacts: false
+        tools_install_dir: ~/miniforge3
+      osx_arm64_python3.15.____cp315rdkit2026.03.6:
+        CONFIG: osx_arm64_python3.15.____cp315rdkit2026.03.6
         UPLOAD_PACKAGES: 'True'
         VMIMAGE: macOS-15-arm64
         build_workspace_dir: ~/miniforge3/conda-bld

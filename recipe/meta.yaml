@@ -10,9 +10,11 @@ source:
 
 build:
   skip: true  # [py<311]
+  # rdkit 2026.09.2 has no osx-64 build for python 3.14 on conda-forge yet
+  skip: true  # [osx and x86_64 and py==314 and rdkit == "2026.09.2"]
   script_env:
     - RDKIT_VERSION={{ rdkit }}
-  number: 2
+  number: 3
   missing_dso_whitelist:
     - '*libpython*'  # [linux]
   entry_points:
